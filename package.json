@@ -6,10 +6,10 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "deno run --allow-net --allow-read --allow-env ./dist/server/entry.mjs"
+    "preview": "astro preview"
   },
   "devDependencies": {
-    "@astrojs/deno": "^0.1.9",
+    "@astrojs/vercel": "^0.2.5",
     "astro": "^1.0.0-beta.65"
   }
 }
